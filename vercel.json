@@ -4,11 +4,7 @@
       "source": "/cv",
       "destination": "assets/CV_Anthony.pdf",
       "permanent": false
-    }
-  ]
-}
-{
-  "redirects": [
+    },
     {
       "source": "/linkedin",
       "destination": "https://www.linkedin.com/in/anthony-izaguirre-324335315/",
