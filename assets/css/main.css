@@ -24,7 +24,7 @@
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ececec; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #232323; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #310606; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color: #050513; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -2547,4 +2547,30 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* Ajustes para el botón de volver arriba */
+#scroll-top {
+  /* 1. Evitar el solapamiento con el Chatbot */
+  right: 90px !important; /* Lo aleja del borde derecho para dejarle espacio a Zendesk */
+  bottom: 25px !important; /* Ajusta la altura si es necesario */
+  z-index: 999; 
+
+  /* 2. Nuevo estilo visual */
+  border-radius: 50px !important; /* Usa 50% si prefieres un círculo perfecto, 8px para un cuadrado redondeado */
+  width: 45px !important;
+  height: 45px !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+  transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el cursor (Hover) */
+#scroll-top:hover {
+  transform: translateY(-4px); /* Hace que el botón "flote" hacia arriba al pasar el mouse */
+}
+
+/* Ajusta el color del icono de la flecha */
+#scroll-top i {
+  color: #000000 !important; 
+  font-size: 24px !important;
 }
