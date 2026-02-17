@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/cv",
+      "destination": "assets/CV_Anthony.pdf",
+      "permanent": false
+    }
+  ]
+}
