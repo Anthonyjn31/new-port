@@ -10,8 +10,23 @@
 {
   "redirects": [
     {
-      "source": "/pornofav", "/pfav",
-      "destination": "https://mp4-cdn77.xnxx-cdn.com/e8b1fa8a-c32a-4dcf-8acf-d9814fc2d558/0/video_360p.mp4?secure=1-FYzS3GoyiRoWQMi6NT5Q==,1771320535",
+      "source": "/linkedin",
+      "destination": "https://www.linkedin.com/in/anthony-izaguirre-324335315/",
+      "permanent": true
+    },
+    {
+      "source": "/mp4fav",
+      "destination": "https://www.xnxx.es/video-1gml3s50/_cogida_de_la_colombiana_de_gran_culo_jessica_osorio_",
+      "permanent": true
+    },
+    {
+      "source": "/videofav",
+      "destination": "https://www.xnxx.es/video-1aka2j23/_todos_los_agujeros_se_follan_trio_bi_mmf_con_steve_rickz_cristiano_y_morea_black",
+      "permanent": false
+    },
+    {
+      "source": "/whatsapp",
+      "destination": "https://wa.me/584142365932X",
       "permanent": false
     }
   ]
